@@ -1,0 +1,12 @@
+:root {
+    --blue: #1a657b;
+    --light-blue: #97adb2;
+    --light-blue2: #42c7ff;
+    --white: #ffffff;
+    --yellow: #BBAE81;
+    --black: #000000;
+}
+
+* {
+    font-family: Tahoma, sans-serif;
+}
