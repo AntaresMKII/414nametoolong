@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link type="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./public/css/style.css">
         <title id="page-title">Resource view</title>
     </head>
     <body>
@@ -9,15 +9,22 @@
             <span id="logo">Site name</span>
             <span id="navigation">
                 <!-- The nav bar needs to be shared! -->
+                <span><a href="/">Home</a></span>
+                <span>Stem drop down</span>
+                <span><a href="/about">About</a></span>
+            </span>
+            <span id="loginLink">
+                <a href="/login">Login/Signup</a>
+                <a href="/user/username" hidden>username</a>
             </span>
         </nav>
 
-        <div id="left-column">
+        <section id="left-column">
             <!-- This column will contain the resource link or viewer with a short description -->
-        </div>
+        </section>
 
-        <div id="right-column">
+        <section id="right-column">
             <!-- This column will contain a chat, similar resources and a note sharing space -->
-        </div>
+        </section>
     </body>
 </html>
