@@ -22,6 +22,33 @@ body {
     text-align: left;
 }
 
+span#navigation a{
+    padding: 10px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+span#navigation a:hover{
+    background-color: var(--white);
+    color: var(--blue);
+    border-radius: 20px;
+}
+
+#logo {
+    display: inline-block;
+
+}
+
+#navigatio {
+    display: inline-block;
+    margin: auto;
+}
+
+#loginLink {
+    display: inline-block;
+    margin: auto;
+}
+
 #left-column {
     display: inline-block;
     background-color: var(--white);
@@ -38,7 +65,7 @@ body {
     vertical-align: top;
 }
 
-span.tag {
+div#tags a {
     display: inline-block;
     border: 1px solid var(--light-blue);
     border-radius: 2px;
@@ -47,7 +74,15 @@ span.tag {
     color: var(--light-blue);
     font-size: 0.75em;
     font-style: italic;
+    text-decoration: none;
 }
+
+div#tags a:hover {
+    border-color: var(--white);
+    background-color: var(--light-blue);
+    color: var(--white);
+}
+
 
 #link {
     font-style: italic;
