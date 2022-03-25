@@ -18,22 +18,52 @@ body {
 #nav-bar {
     background-color: var(--yellow);
     border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+#left-column {
+    display: inline-block;
+    background-color: var(--white);
+    border-radius: 20px;
+    margin: 20px;
+    width: 80em;
+    text-align: center;
+    vertical-align: top;
+}
+
+#right-column {
+    display: inline-block;
+    width: 30em;
+    vertical-align: top;
+}
+
+span.tag {
+    display: inline-block;
+    border: 1px solid var(--light-blue);
+    border-radius: 2px;
+    margin: 5px;
+    padding: 5px;
+    color: var(--light-blue);
+    font-size: 0.75em;
+    font-style: italic;
+}
+
+#link {
+    font-style: italic;
+}
+
+#shared-notes {
+    padding-left: 20px;
+    color: var(--white);
+    background-color: var(--light-blue);
+    border-radius: 20px;
+    margin: 20px;
     padding: 10px;
-    text-align: center;
+    vertical-align: top;
 }
 
-#logo {
-    position: absolute;
-    left: 20px;
-}
-
-#navigation {
-    text-align: center;
-    margin: 1.5em;
-}
-
-#loginLink {
-    position: absolute;
-    text-align: right;
-    right: 20px;
+#description {
+    text-align: left;
+    padding: 20px;
 }
