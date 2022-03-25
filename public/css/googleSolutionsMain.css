@@ -1,0 +1,136 @@
+:root {
+  --blue: #1a657b;
+  --light-blue: #97adb2;
+  --light-blue2: #42c7ff;
+  --white: #ffffff;
+  --yellow: #ffe899;
+  --black: #000000;
+}
+
+* {
+  color: var(--white) !important;
+  font-family: Tahoma, sans-serif;
+}
+
+body {
+  background: var(--light-blue2);
+  padding: 50px 10px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Qanaya","Druk Wide", "Tahoma";
+  color: White;
+  text-align: top;
+  font-size: 55px;
+  position: relative;
+}
+
+#main-header {
+  font-size: 3rem;
+  color: rgb(0, 51, 102);
+  text-align: right;
+}
+
+#jumbotron-greeting {
+  padding: 250px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("headerBG.jpg");
+  margin: 70px;
+  border-radius: 15px;
+}
+
+#jumbotron-about {
+  padding: 250px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("aboutBG.jpg");
+  margin: 70px;
+  border-radius: 15px;
+}
+
+#jumbotron-about p {
+  color: white;
+  padding: 20px;
+  margin: 0px;
+  border: 0;
+  text-align: center;
+  font-family: "Qanaya","Druk Wide","Tahoma";
+}
+
+#jumbotron-stem {
+  background-image: url("stemBG.jpg");
+  padding: 185px 0;
+  border-radius: 15px;
+  margin: 70px;
+  background-position: center;
+  background-size: cover;
+}
+
+#jumbotron-contact {
+  padding: 250px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("contactBG.jpg");
+  margin: 70px;
+  border-radius: 15px;
+}
+
+.jumbotron p, li, b, span {
+  font-family: "Qanaya","Druk Wide", "Tahoma";
+  color: White !important;
+  text-align: center;
+  position: relative;
+}
+
+nav a, p {
+  display: inline;
+  font-size: 1.2em;
+  color: rgb(0, 51, 102);
+  margin: 8px;
+  position: relative;
+  top: 6px;
+  overflow: auto;
+}
+
+nav a:link {
+  text-decoration: none;
+  color: purple;
+}
+
+nav a:hover {
+  color: brown !important;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+}
+
+nav li {
+  display: inline;
+  padding: 5px;
+}
+
+.list-group-item {
+  width: 75%;
+  left: 165px;
+  top: 25px;
+  padding: 15px;
+}
+
+svg:hover {
+  position: relative;
+  bottom: 2px;
+}
+
+footer p {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
