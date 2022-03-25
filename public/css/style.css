@@ -10,3 +10,95 @@
 * {
     font-family: Tahoma, sans-serif;
 }
+
+body {
+    background-color: var(--light-blue2);
+}
+
+#nav-bar {
+    background-color: var(--yellow);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+span#navigation a{
+    padding: 10px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+span#navigation a:hover{
+    background-color: var(--white);
+    color: var(--blue);
+    border-radius: 20px;
+}
+
+#logo {
+    display: inline-block;
+
+}
+
+#navigatio {
+    display: inline-block;
+    margin: auto;
+}
+
+#loginLink {
+    display: inline-block;
+    margin: auto;
+}
+
+#left-column {
+    display: inline-block;
+    background-color: var(--white);
+    border-radius: 20px;
+    margin: 20px;
+    width: 80em;
+    text-align: center;
+    vertical-align: top;
+}
+
+#right-column {
+    display: inline-block;
+    width: 30em;
+    vertical-align: top;
+}
+
+div#tags a {
+    display: inline-block;
+    border: 1px solid var(--light-blue);
+    border-radius: 2px;
+    margin: 5px;
+    padding: 5px;
+    color: var(--light-blue);
+    font-size: 0.75em;
+    font-style: italic;
+    text-decoration: none;
+}
+
+div#tags a:hover {
+    border-color: var(--white);
+    background-color: var(--light-blue);
+    color: var(--white);
+}
+
+
+#link {
+    font-style: italic;
+}
+
+#shared-notes {
+    padding-left: 20px;
+    color: var(--white);
+    background-color: var(--light-blue);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+#description {
+    text-align: left;
+    padding: 20px;
+}
