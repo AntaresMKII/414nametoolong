@@ -18,3 +18,9 @@ Static pages:
 
 If you think a functionality is missing send a message on discord
 
+## Folder structure
+Firebase require a folder containing all webpages and other files, so I changed the structure of this repository such that all files are better organized. Please follow this convention:
+- Images go into public/img
+- Javascript and json go into public/js
+- css files go into public/css
+- html files go into public/ (and not into public/html)
