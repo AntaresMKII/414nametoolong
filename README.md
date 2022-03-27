@@ -15,7 +15,8 @@ Then use the following functions to get user informations:
 
 ## How Data is Stored:
 The data will be stored as multiple JSON objects following this structure:
-`Users: {
+```
+Users: {
     userid: {
         username
         email
@@ -41,7 +42,7 @@ Notes: {
         content
     }
 }
-`
+```
 
 All functions require a callback function where the data is passed into.
 
