@@ -47,12 +47,25 @@ Database.prototype.getAllResources = function(callback) {
 
 // Get resources for one resource with resource id
 Database.prototype.getResource = function(rid, callback) {
-    callback(undefined);
+    const resRef = ref(this.db, 'resources/' + rid);
+    onValue(resRef, (snapshot) => {
+        const data = snapshot.val();
+        callback(data);
+    });
 }
 
 // Adds a new resource
 Database.prototype.addResource = function(resource, callback) {
-    callback(undefined);
+    const resRef = ref(this.db, 'resources/' + resource.id);
+    set(resRef, {
+        title: resource.title,
+        link: resource.link,
+        description: resource.description,
+        userid: resource.userid,
+        notes: resource.notes,
+        tags: resource.tags
+    });
+    callback(resource);
 }
 
 // Get all notes. Expensive operation, Avoid using
