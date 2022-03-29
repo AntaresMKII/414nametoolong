@@ -1,19 +1,28 @@
-<link rel="stylesheet" href="login.css">
-</head>
-<body>
-  <main>
-    <h1>Log-in</h1>
-    <form action="/login" method="POST">
-      <input type="hidden" name="_csrf">
-      <p>
-        <label for="email">E-Mail</label>
-        <input type="email" id="email" name="email" required>
-      </p>
-      <p>
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" required>
-      </p>
-      <button class="btn">Log-in</button>
-      <p id="switch-form"><a href="/signup.html">Create a new user</a></p>
-    </form>
-  </main>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Login / Create Account</title>
+    <link rel="icon" type="image/x-icon" href="./public/img/favicon.ico">
+    <link rel="stylesheet" href="./public/css/login.css">
+  </head>
+
+  <body>
+    <main>
+      <h1>Log-in</h1>
+      <form action="/login" method="POST">
+        <input type="hidden" name="_csrf">
+        <p>
+          <label for="email">E-Mail</label>
+          <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </p>
+        <button class="btn">Log-in</button>
+        <p id="switch-form"><a href="/signup.html">Create a new user</a></p>
+      </form>
+    </main>
+  </body>
+</html>
