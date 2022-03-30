@@ -4,7 +4,7 @@
 ## Description
 STEM-TO-ME is the proposed solution to the Quality Education goal. This website
 focuses on aggregating resources to help students learn more on multiple STEM
-related topics.
+related topics. Chrome is recomended for this website.
 
 ## View it on the Web
 The latest deployment can be viewed [here](https://nametoolong-53997.web.app/)
