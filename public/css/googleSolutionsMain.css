@@ -37,7 +37,7 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("headerBG.jpg");
+  background-image: url("../img/headerBG.jpg");
   margin: 70px;
   border-radius: 15px;
 }
@@ -47,7 +47,7 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("aboutBG.jpg");
+  background-image: url("../img/aboutBG.jpg");
   margin: 70px;
   border-radius: 15px;
 }
@@ -62,7 +62,7 @@ h2 {
 }
 
 #jumbotron-stem {
-  background-image: url("stemBG.jpg");
+  background-image: url("../img/stemBG.jpg");
   padding: 185px 0;
   border-radius: 15px;
   margin: 70px;
@@ -75,7 +75,7 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("contactBG.jpg");
+  background-image: url("../img/contactBG.jpg");
   margin: 70px;
   border-radius: 15px;
 }
