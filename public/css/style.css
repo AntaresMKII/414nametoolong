@@ -1,128 +1,43 @@
-:root {
-    --blue: #1a657b;
-    --light-blue: #97adb2;
-    --light-blue2: #42c7ff;
-    --white: #ffffff;
-    --yellow: #ffe899;
-    --black: #000000;
-}
 
-* {
-    font-family: "Tahoma", "sans-serif";
-}
+/* page 1 */
 
-body {
-    background-color: var(--light-blue2);
-}
-
-#nav-bar {
-    background-color: var(--yellow);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: left;
-}
-
-span#navigation a{
-    padding: 10px;
-    color: var(--black);
-    text-decoration: none;
-}
-
-span#navigation a:hover{
-    background-color: var(--white);
-    color: var(--blue);
-    border-radius: 20px;
-}
-
-#logo {
-    display: inline-block;
+body{
+  background-color: rgb(30, 117, 146);
 
 }
 
-#navigatio {
-    display: inline-block;
-    margin: auto;
+h1{
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 1000;
+  box-sizing: border-box;
+  padding: 20px;
+
+  text-align: center;
 }
 
-#loginLink {
-    display: inline-block;
-    margin: auto;
+dl{
+  border-radius: 20px;
+  background: rgb(204, 206, 233);
+  padding: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+
 }
 
-#left-column {
-    display: inline-block;
-    background-color: #5f7470;
-    border-radius: 20px;
-    margin: 20px;
-    width: 80em;
-    text-align: center;
-    vertical-align: top;
+dt{
+  font-weight: 300;
+  font-size: x-large;
+  padding: 10px;
 }
 
-#right-column {
-    display: inline-block;
-    width: 30em;
-    vertical-align: top;
+dt:hover{
+  background-color:rgb(111, 160, 131);
+  color: white;
 }
 
-div#tags a {
-    display: inline-block;
-    border: 1px solid var(--light-blue);
-    border-radius: 2px;
-    margin: 5px;
-    padding: 5px;
-    color: var(--light-blue);
-    font-size: 0.75em;
-    font-style: italic;
-    text-decoration: none;
-}
-
-div#tags a:hover {
-    border-color: var(--white);
-    background-color: var(--light-blue);
-    color: var(--white);
-}
-
-
-#link {
-    font-style: italic;
-}
-
-#shared-notes {
-    padding-left: 20px;
-    color: var(--white);
-    background-color: var(--light-blue);
-    border-radius: 20px;
-    margin: 20px;
-    padding: 10px;
-    vertical-align: top;
-}
-
-#description {
-    text-align: left;
-    padding: 20px;
-}
-
-#select-resource{
-    text-align: center;
-}
-
-#res-list {
-    list-style: none;
-    width: 50%;
-    text-align: center;
-}
-
-.res-entry {
-    text-align: left;
-    border: 5px solid white;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px;
-    background-color: #42c7ff;
-}
-
-.res-entry:hover {
-    background-color: white;
-    color: #42c7ff !important;
+.img{
+  border-radius: 1000px;
+  display: block;
+  margin: 0px auto;
 }
