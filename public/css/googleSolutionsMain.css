@@ -134,3 +134,55 @@ footer p {
   padding: 0;
   border: 0;
 }
+
+div#tags a {
+    display: inline-block;
+    border: 1px solid var(--light-blue);
+    border-radius: 2px;
+    margin: 5px;
+    padding: 5px;
+    color: var(--light-blue);
+    font-size: 0.75em;
+    font-style: italic;
+    text-decoration: none;
+}
+
+div#tags a:hover {
+    border-color: var(--white);
+    background-color: var(--light-blue);
+    color: var(--white);
+}
+
+
+#link {
+    font-style: italic;
+}
+
+#description {
+    text-align: left;
+    padding: 20px;
+}
+
+#select-resource{
+    text-align: center;
+}
+
+#res-list {
+    list-style: none;
+    width: 50%;
+    text-align: center;
+}
+
+.res-entry {
+    text-align: left;
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #42c7ff;
+}
+
+.res-entry:hover {
+    background-color: white;
+    color: #42c7ff !important;
+}
